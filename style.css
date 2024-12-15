@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-.hero{
+.hero {
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(45deg, #1d0000, #20205b);
@@ -12,14 +12,30 @@
     align-items: center;
     justify-content: center;
 }
-.calendar{
+
+.container {
+    text-align: center;
+    margin-bottom: 300px;
+    margin-right: 100px;
+}
+
+.name {
+    font-size: 100px;
+    color: green;
+    margin-bottom: -10px;
+    margin-left: -30px;
+}
+
+.calendar {
     width: 300px;
     height: 250px;
     background: #fff;
     display: flex;
     align-items: center;
     border-radius: 10px;
+    margin: 0 auto;
 }
+
 .left, .right{
     height: 100%;
     display: flex;
